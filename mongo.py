@@ -25,16 +25,16 @@ coll = conn[DATABASE][COLLECTION]
 documents = coll.find()
 
 """ Insert a single document """
-new_doc = {
-    "first": "douglas",
-    "last": "adams",
-    "dob": "11/03/1952",
-    "gender": "m",
-    "hair_color": "grey",
-    "occupation": "writer",
-    "nationality": "british"
-}
-coll.insert(new_doc)
+#new_doc = {
+#    "first": "douglas",
+#    "last": "adams",
+#    "dob": "11/03/1952",
+#   "gender": "m",
+#    "hair_color": "grey",
+#    "occupation": "writer",
+#    "nationality": "british"
+#}
+#coll.insert(new_doc)
 
 """ Insert multipe documents """
 # new_docs = [{
@@ -57,7 +57,7 @@ coll.insert(new_doc)
 # coll.insert_many(new_docs)
 
 """ Find documents with 'first' name set to 'douglas' """
-# documents = coll.find({"first": "douglas"})
+#documents = coll.find({"first": "douglas"})
 
 """ Delete documents with 'first' name set to 'douglas' """
 # coll.remove({"first": "douglas"})
